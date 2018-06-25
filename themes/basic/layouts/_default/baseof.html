@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    <script>
+      if (!localStorage.getItem("baseurl")) {
+        localStorage.setItem("baseurl", 'http://test.easytravelapi.com/rest/yourauthtoken');
+      }
+      if (!localStorage.getItem("language")) {
+        localStorage.setItem("language", 'es');
+      }
+      var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language")};
+
+      function selectLanguage(lang) {
+        localStorage.setItem("language", lang);
+        var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language")};
+       };
+    </script>
+    <style>
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+    </style>
+</head>
+<body>
+{{ block "header" . }}{{ partial "header.html" .}}{{ end }}
+<main>
+    <div class="container">
+        {{ block "main" . }}{{ end }}
+    </div>
+</main>
+{{ block "footer" . }}{{ partial "footer.html" .}}{{ end }}
+{{ block "scripts" . }}{{ partial "scripts.html" .}}{{ end }}
+</body>
+</html>

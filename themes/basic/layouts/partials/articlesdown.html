@@ -1,0 +1,8 @@
+<div class="row">
+    {{ range first 3 .Data.Pages }}
+    <div class="col m4 l4 s12">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </div>
+    {{ end }}
+</div>

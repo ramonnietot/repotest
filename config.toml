@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+theme = "basic"
+sectionPagesMenu = "main"
+
+DefaultContentLanguage = "es"
+copyright = "Everything is mine"
+
+[languages]
+  [languages.en]
+    title = "QuoTravelEN"
+    weight = 2
+
+  [languages.es]
+    copyright = "implementado por Quonext"
+    title = "QuoTravel"
+    weight = 1
