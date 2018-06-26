@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <title>{{ .Site.Title }}</title>
-    <link type="text/html" href="/css/materialize.min.css">
     <script>
       if (!localStorage.getItem("baseurl")) {
         localStorage.setItem("baseurl", 'http://test.easytravelapi.com/rest/yourauthtoken');
@@ -29,10 +28,8 @@
         flex: 1 0 auto;
     }
     </style>
-    <link href="/css/app.css" rel=stylesheet>
 </head>
 <body>
-3
 {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
 <main>
     <div class="container">
