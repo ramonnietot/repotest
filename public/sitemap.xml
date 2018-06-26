@@ -2,12 +2,12 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>http://localhost:8080/es/sitemap.xml</loc>
+	   	<loc>https://pedantic-williams-fc3e0c.netlify.com/es/sitemap.xml</loc>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://localhost:8080/en/sitemap.xml</loc>
+	   	<loc>https://pedantic-williams-fc3e0c.netlify.com/en/sitemap.xml</loc>
 		
 	</sitemap>
 	
