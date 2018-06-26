@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://pedantic-williams-fc3e0c.netlify.com"
 theme = "basic"
 sectionPagesMenu = "main"
 

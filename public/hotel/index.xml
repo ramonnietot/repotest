@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hotel on QuoTravel</title>
-    <link>http://example.org/hotel/</link>
+    <link>http://localhost:8080/hotel/</link>
     <description>Recent content in Hotel on QuoTravel</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>implementado por Quonext</copyright>
     
-	<atom:link href="http://example.org/hotel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8080/hotel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Articulo 1</title>
-      <link>http://example.org/hotel/article1/</link>
+      <link>http://localhost:8080/hotel/article1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/hotel/article1/</guid>
+      <guid>http://localhost:8080/hotel/article1/</guid>
       <description>articulo uno</description>
     </item>
     
     <item>
       <title>Articulo 2</title>
-      <link>http://example.org/hotel/article2/</link>
+      <link>http://localhost:8080/hotel/article2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/hotel/article2/</guid>
+      <guid>http://localhost:8080/hotel/article2/</guid>
       <description>Articulo dos</description>
     </item>
     
     <item>
       <title>Articulo 3</title>
-      <link>http://example.org/hotel/article3/</link>
+      <link>http://localhost:8080/hotel/article3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/hotel/article3/</guid>
+      <guid>http://localhost:8080/hotel/article3/</guid>
       <description>articulo tres</description>
     </item>
     
     <item>
       <title>Articulo 4</title>
-      <link>http://example.org/hotel/article4/</link>
+      <link>http://localhost:8080/hotel/article4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/hotel/article4/</guid>
+      <guid>http://localhost:8080/hotel/article4/</guid>
       <description>Articulo cuatro</description>
     </item>
     
