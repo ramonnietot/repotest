@@ -1,7 +1,7 @@
 <header>
     <nav>
-        <div class="nav-wrapper">
-            <a class="brand-logo" style="margin-left: 10px;">QuoTravel</a>
+        <div class="nav-wrapper container">
+            <a class="brand-logo" >QuoTravel</a>
             <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li >
@@ -35,6 +35,8 @@
             </ul>
         </div>
     </nav>
+
+
     <ul class="sidenav" id="mobile-demo">
         <li>
         <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/{{ .Lang }}/#" title="Inicio">
@@ -54,9 +56,9 @@
             <a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}/#/{{ .Params.appdest }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
         </li>
         {{ end}}
-
-
-
     </ul>
+
+
+
 </header>
 
