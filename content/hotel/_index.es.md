@@ -2,7 +2,7 @@
 
 title: "Hotel"
 type: "Hotel"
-appdest: "Hotel"
+appdest: "hotel"
 
 ---
 
