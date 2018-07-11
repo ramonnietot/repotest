@@ -1,7 +1,7 @@
 ---
 title: "Excursion"
 type: "Excursion"
-appdest: "Excursion"
+appdest: "excursion"
 
 ---
 
