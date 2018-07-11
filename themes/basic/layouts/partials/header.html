@@ -18,7 +18,16 @@
                         {{ .Name }}
                     </a>
                 </li>
+
                 {{ end }}
+                <li >
+                    <!--<a class="hover-white no-underline white-90" href="{{ .URL }}#/{{ .Name }}"  title="{{ .Name }} page">
+                        {{ .Name }}
+                    </a>-->
+                    <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/login/"  title="Login page">
+                        Login
+                    </a>
+                </li>
                 <li>
                     <a class='dropdown-trigger' href='#' data-target='dropdown1'><div class="valign-wrapper"><img class="responsive-img " src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
                     <ul id='dropdown1' class='dropdown-content'>
@@ -37,7 +46,7 @@
 
     <ul class="sidenav" id="mobile-demo">
         <li>
-        <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/{{ .Lang }}/#" title="Inicio">
+        <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/{{ .Lang }}" title="Inicio">
             Inicio
         </a>
         </li>
