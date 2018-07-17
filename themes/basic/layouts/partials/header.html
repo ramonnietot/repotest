@@ -19,6 +19,17 @@
                     </a>
                 </li>
                 {{ end }}
+                <li>
+                    <a class='dropdown-trigger' href='#' data-target='dropdown1'><div class="valign-wrapper"><img class="responsive-img " src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
+                    <ul id='dropdown1' class='dropdown-content'>
+                        {{ range .Translations }}
+                        <li>
+                            <!--<a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}/#/{{ .Params.appdest }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>-->
+                            <a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
+                        </li>
+                        {{ end}}
+                    </ul>
+                </li>
 
             </ul>
         </div>
