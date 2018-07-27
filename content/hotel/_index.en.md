@@ -6,4 +6,3 @@ appdest: "hotel"
 
 ---
 
-Texto adicional Hotel INGLES 

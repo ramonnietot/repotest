@@ -4,20 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <title>{{ .Site.Title }}</title>
+    <!-- Local Script  -->
     <script>
-      if (!localStorage.getItem("baseurl")) {
-        localStorage.setItem("baseurl", 'http://test.easytravelapi.com/rest/yourauthtoken');
-      }
-      if (!localStorage.getItem("language")) {
-        localStorage.setItem("language", 'es');
-      }
-      var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language")};
+        if (!localStorage.getItem("baseurl")) {
+            localStorage.setItem("baseurl", 'http://test.easytravelapi.com/rest/yourauthtoken');
+        }
+        if (!localStorage.getItem("language")) {
+            localStorage.setItem("language", 'es');
+        }
+        var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language"), userprofile: JSON.parse(sessionStorage.getItem("userprofile"))};
+        function selectLanguage(lang) {
+            localStorage.setItem("language", lang);
+            var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language"), userprofile: JSON.parse(sessionStorage.getItem("userprofile"))};
+        };
 
-      function selectLanguage(lang) {
-        localStorage.setItem("language", lang);
-        var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language")};
-       };
     </script>
+
     <style>
     body {
         display: flex;

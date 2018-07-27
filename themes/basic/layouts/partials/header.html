@@ -4,11 +4,11 @@
             <a class="brand-logo" >QuoTravel</a>
             <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li >
+               <!-- <li >
                     <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/{{ .Lang }}" title="Inicio">
                         Inicio
                     </a>
-                </li>
+                </li>-->
                 {{ range .Site.Menus.main }}
                 <li >
                     <!--<a class="hover-white no-underline white-90" href="{{ .URL }}#/{{ .Name }}"  title="{{ .Name }} page">
@@ -19,6 +19,7 @@
                     </a>
                 </li>
                 {{ end }}
+
                 <li>
                     <a class='dropdown-trigger' href='#' data-target='dropdown1'><div class="valign-wrapper"><img class="responsive-img " src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
                     <ul id='dropdown1' class='dropdown-content'>

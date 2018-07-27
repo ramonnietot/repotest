@@ -1,19 +1,10 @@
+<!-- Materialize -->
+    <!-- CSS -->
 <link rel="stylesheet" href="/css/materialize.min.css">
-<script src="/js/materialize.min.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/manifest.js"></script>
-<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/vendor.js"></script>
-<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/app.js"></script>-->
-
-<script type="text/javascript" src="/js/hotel.manifest.js"></script>
-<script type="text/javascript" src="/js/hotel.vendor.js"></script>
-<script type="text/javascript" src="/js/hotel.app.js"></script>
-<script type="text/javascript" src="/js/traslados.manifest.js"></script>
-<script type="text/javascript" src="/js/traslados.vendor.js"></script>
-<script type="text/javascript" src="/js/traslados.app.js"></script>
-<script type="text/javascript" src="/js/login.manifest.js"></script>
-<script type="text/javascript" src="/js/login.vendor.js"></script>
-<script type="text/javascript" src="/js/login.app.js"></script>
+    <!-- JS -->
+<script src="/js/materialize.min.js"></script>
+    <!-- initialize -->
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.collapsible');
@@ -24,5 +15,28 @@
     var elems = document.querySelectorAll('.dropdown-trigger');
     var instances = M.Dropdown.init(elems);
   });
-
+    document.addEventListener('DOMContentLoaded', function() {
+        var elem = document.querySelector('.sidenav');
+        var instance = new M.Sidenav(elem);
+    });
 </script>
+
+<!-- APPs-->
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/{{.Params.appdest}}.app.css">
+<!-- JS  -->
+{{ if ne .Params.appdest "index"  }}
+<script type="text/javascript" src="/js/{{.Params.appdest}}.manifest.js"></script>
+<script type="text/javascript" src="/js/{{.Params.appdest}}.vendor.js"></script>
+<script type="text/javascript" src="/js/{{.Params.appdest}}.app.js"></script>
+<!--<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/manifest.js"></script>
+<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/vendor.js"></script>
+<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/app.js"></script>-->
+
+{{ end }}
+
+
+
+
+

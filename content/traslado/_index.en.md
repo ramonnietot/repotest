@@ -2,8 +2,7 @@
 
 title: "Traslado"
 type: "Traslado"
-appdest: "traslado"
+appdest: "traslados"
 
 ---
 
-Texto adicional traslado Ingles

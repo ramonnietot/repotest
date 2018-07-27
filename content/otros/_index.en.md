@@ -6,4 +6,3 @@ appdest: "otros"
 
 ---
 
-Texto adicional Otros servicios INGLES 

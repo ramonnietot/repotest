@@ -6,4 +6,3 @@ appdest: "login"
 
 ---
 
-Texto adicional Hotel INGLES 

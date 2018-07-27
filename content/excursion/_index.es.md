@@ -5,4 +5,3 @@ appdest: "excursion"
 
 ---
 
-Texto adicional Excursion
