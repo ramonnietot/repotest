@@ -38,11 +38,6 @@
 
 
     <ul class="sidenav" id="mobile-demo">
-        <li>
-        <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/{{ .Lang }}/" title="Inicio">
-            Inicio
-        </a>
-        </li>
         {{ range .Site.Menus.main }}
         <li >
             <a href="{{ .URL }}"  title="{{ .Name }} page">
