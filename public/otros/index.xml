@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Otros Servicios on QuoTravel</title>
+    <link>https://pedantic-williams-fc3e0c.netlify.com/otros/</link>
+    <description>Recent content in Otros Servicios on QuoTravel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>implementado por Quonext</copyright>
+    
+	<atom:link href="https://pedantic-williams-fc3e0c.netlify.com/otros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Articulo 1</title>
+      <link>https://pedantic-williams-fc3e0c.netlify.com/otros/article1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pedantic-williams-fc3e0c.netlify.com/otros/article1/</guid>
+      <description>articulo uno Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</description>
+    </item>
+    
+    <item>
+      <title>Articulo 2</title>
+      <link>https://pedantic-williams-fc3e0c.netlify.com/otros/article2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pedantic-williams-fc3e0c.netlify.com/otros/article2/</guid>
+      <description>Articulo dos Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</description>
+    </item>
+    
+    <item>
+      <title>Articulo 3</title>
+      <link>https://pedantic-williams-fc3e0c.netlify.com/otros/article3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pedantic-williams-fc3e0c.netlify.com/otros/article3/</guid>
+      <description>articulo tres Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</description>
+    </item>
+    
+    <item>
+      <title>Articulo 4</title>
+      <link>https://pedantic-williams-fc3e0c.netlify.com/otros/article4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pedantic-williams-fc3e0c.netlify.com/otros/article4/</guid>
+      <description>Articulo cuatro Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</description>
+    </item>
+    
+  </channel>
+</rss>

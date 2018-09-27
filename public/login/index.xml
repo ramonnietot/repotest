@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Login on QuoTravel</title>
+    <link>https://pedantic-williams-fc3e0c.netlify.com/login/</link>
+    <description>Recent content in Login on QuoTravel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>implementado por Quonext</copyright>
+    
+	<atom:link href="https://pedantic-williams-fc3e0c.netlify.com/login/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>QuoTravelEN</title>
+    
+    <script>
+        if (!localStorage.getItem("baseurl")) {
+            localStorage.setItem("baseurl", 'http://test.easytravelapi.com/rest/yourauthtoken');
+        }
+        if (!localStorage.getItem("language")) {
+            localStorage.setItem("language", 'es');
+        }
+        var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language"), userprofile: JSON.parse(sessionStorage.getItem("userprofile"))};
+        function selectLanguage(lang) {
+            localStorage.setItem("language", lang);
+            var globaldata = {baseurl: localStorage.getItem("baseurl"), language: localStorage.getItem("language"), userprofile: JSON.parse(sessionStorage.getItem("userprofile"))};
+        };
+
+    </script>
+
+    <style>
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-wrapper container">
+            <a class="brand-logo" >QuoTravel</a>
+            <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/"  title="Home page">
+                        Home
+                    </a>
+                </li>
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/hotel/"  title="Hotel page">
+                        Hotel
+                    </a>
+                </li>
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/excursion/"  title="Excursions page">
+                        Excursions
+                    </a>
+                </li>
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/circuito/"  title="Tours page">
+                        Tours
+                    </a>
+                </li>
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/traslado/"  title="Transfers page">
+                        Transfers
+                    </a>
+                </li>
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/otros/"  title="Other Services page">
+                        Other Services
+                    </a>
+                </li>
+                
+                <li >
+                    
+                    <a class="hover-white no-underline white-90" href="/en/reservas/"  title="reservas page">
+                        reservas
+                    </a>
+                </li>
+                
+
+                <li>
+                    <a class='dropdown-trigger' href='#' data-target='dropdown1'><div class="valign-wrapper"><img class="responsive-img " src="../../images/flags/en.png">&nbsp;en</div></a>
+                    <ul id='dropdown1' class='dropdown-content'>
+                        
+                        <li>
+                            
+                            <a id="lang-selector" onclick="return selectLanguage(&#34;es&#34;);" href="https://pedantic-williams-fc3e0c.netlify.com/hotel/"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/es.png">&nbsp;es</div></a>
+                        </li>
+                        
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <ul class="sidenav" id="mobile-demo">
+        
+        <li >
+            <a href="/en/"  title="Home page">
+                Home
+            </a>
+        </li>
+        
+        <li >
+            <a href="/en/hotel/"  title="Hotel page">
+                Hotel
+            </a>
+        </li>
+        
+        <li >
+            <a href="/en/excursion/"  title="Excursions page">
+                Excursions
+            </a>
+        </li>
+        
+        <li >
+            <a href="/en/circuito/"  title="Tours page">
+                Tours
+            </a>
+        </li>
+        
+        <li >
+            <a href="/en/traslado/"  title="Transfers page">
+                Transfers
+            </a>
+        </li>
+        
+        <li >
+            <a href="/en/otros/"  title="Other Services page">
+                Other Services
+            </a>
+        </li>
+        
+        <li >
+            <a href="/en/reservas/"  title="reservas page">
+                reservas
+            </a>
+        </li>
+        
+        <li><div class="divider"></div></li>
+        
+        <li>
+            
+            <a id="lang-selector" onclick="return selectLanguage(&#34;es&#34;);" href="https://pedantic-williams-fc3e0c.netlify.com/hotel/"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/es.png">&nbsp;es</div></a>
+        </li>
+        
+    </ul>
+
+
+
+</header>
+
+
+<main>
+    <div class="container">
+        
+<div id="hotel" ></div>
+
+<div class="divider"></div>
+<div class="row">
+    
+    <div class="col m4 s12">
+        <div class="icon.block">
+        <h5 class="center">Article 1</h5>
+            <p class="ligth"><p>article one   Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</p>
+</p>
+        </div>
+    </div>
+    
+    <div class="col m4 s12">
+        <div class="icon.block">
+        <h5 class="center">Article 2</h5>
+            <p class="ligth"><p>article two Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</p>
+</p>
+        </div>
+    </div>
+    
+    <div class="col m4 s12">
+        <div class="icon.block">
+        <h5 class="center">Article 3</h5>
+            <p class="ligth"><p>article three Lorem ipsum dolor sit amet consectetur adipiscing, elit nam dignissim facilisis suscipit, metus ultricies turpis netus maecenas. Pulvinar conubia eget platea ornare congue cursus mus inceptos justo quam, imperdiet dui aliquam himenaeos integer et porttitor lectus vulputate accumsan dignissim, ac non cras sodales semper a sollicitudin at mollis.</p>
+</p>
+        </div>
+    </div>
+    
+</div>
+
+    </div>
+</main>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2018 Powered By Quonext
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
+
+    
+<link rel="stylesheet" href="/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+<script src="/js/materialize.min.js"></script>
+    
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems,{accordion: false});
+    });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems);
+  });
+    document.addEventListener('DOMContentLoaded', function() {
+        var elem = document.querySelector('.sidenav');
+        var instance = new M.Sidenav(elem);
+    });
+</script>
+
+
+
+
+<link rel="stylesheet" href="/css/hotel.app.css">
+
+
+<script type="text/javascript" src="/js/hotel.manifest.js"></script>
+<script type="text/javascript" src="/js/hotel.vendor.js"></script>
+<script type="text/javascript" src="/js/hotel.app.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
