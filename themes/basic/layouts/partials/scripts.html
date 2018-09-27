@@ -19,6 +19,19 @@
         var elem = document.querySelector('.sidenav');
         var instance = new M.Sidenav(elem);
     });
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {fullWidth: true,
+            indicators: true});
+
+        var instance = M.Carousel.getInstance(elems[0]);
+        setInterval(function() {
+            instance.next()
+        }, 5000)
+
+
+    });
+
 </script>
 
 <!-- APPs-->

@@ -53,8 +53,14 @@ copyright = "Everything is mine"
     title = "Other Services"
     url = "/en/otros/"
     weight = 60
+  [[languages.en.menu.main]]
+    identifier = "reservas"
+    name = "My Bookings"
+    title = "My Bookings"
+    url = "/en/reservas/"
+    weight = 70
 
-[[languages.es.menu.main]]
+  [[languages.es.menu.main]]
     identifier = "inicio"
     name = "Inicio"
     title = "Inicio"
@@ -90,3 +96,9 @@ copyright = "Everything is mine"
     title = "Otros Servicios"
     url = "/otros/"
     weight = 60
+  [[languages.es.menu.main]]
+    identifier = "reservas"
+    name = "Mis reservas"
+    title = "Mis reservas"
+    url = "/reservas/"
+    weight = 70
