@@ -1,5 +1,5 @@
 baseURL = "https://pedantic-williams-fc3e0c.netlify.com"
-theme = "basic"
+theme = "advanced"
 
 
 DefaultContentLanguage = "es"

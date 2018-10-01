@@ -1,0 +1,60 @@
+<header>
+    <nav>
+        <div class="nav-wrapper container">
+            <a class="brand-logo" >QuoTravel</a>
+            <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <!-- <li >
+                    <a class="hover-white no-underline white-90" href="{{ .Site.BaseURL }}/{{ .Lang }}" title="Inicio">
+                        Inicio
+                    </a>
+                </li>-->
+                {{ range .Site.Menus.main }}
+                <li >
+                    <!--<a class="hover-white no-underline white-90" href="{{ .URL }}#/{{ .Name }}"  title="{{ .Name }} page">
+                        {{ .Name }}
+                    </a>-->
+                    <a class="hover-white no-underline white-90" href="{{ .URL }}"  title="{{ .Name }} page">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+
+                <li>
+                    <a class='dropdown-trigger' href='#' data-target='dropdown1'><div class="valign-wrapper"><img class="responsive-img " src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
+                    <ul id='dropdown1' class='dropdown-content'>
+                        {{ range .Translations }}
+                        <li>
+                            <!--<a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}/#/{{ .Params.appdest }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>-->
+                            <a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
+                        </li>
+                        {{ end}}
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <ul class="sidenav" id="mobile-demo">
+        {{ range .Site.Menus.main }}
+        <li >
+            <a href="{{ .URL }}"  title="{{ .Name }} page">
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+        <li><div class="divider"></div></li>
+        {{ range .Translations }}
+        <li>
+            <!--<a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}/#/{{ .Params.appdest }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>-->
+            <a id="lang-selector" onclick="return selectLanguage({{ .Lang }});" href="{{ .Permalink }}"><div class="valign-wrapper"><img class="responsive-img center" src="../../images/flags/{{ .Lang }}.png">&nbsp;{{ .Lang }}</div></a>
+        </li>
+        {{ end}}
+    </ul>
+
+
+
+</header>
+
