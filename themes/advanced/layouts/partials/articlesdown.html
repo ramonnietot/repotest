@@ -1,8 +1,5 @@
-
-    <div class="row">
-        {{  if gt .Site.Pages   1   }}
-        <h2>Ofertas</h2>
-        {{end}}
+<div class="row"></div>
+    <div class="row ">
         {{ range first 3 .Data.Pages }}
         <div class="col m4 s12">
           <div class="card small">
@@ -13,9 +10,9 @@
                 <div class="card-content">
                     <p>{{ .Content }}</p>
                 </div>
-                <div class="card-action">
+                <!--<div class="card-action">
                     <a href="#">GO</a>
-                </div>
+                </div>-->
             </div>
         </div>
 

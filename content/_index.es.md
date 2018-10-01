@@ -1,7 +1,8 @@
 ---
 
-title: "Hotel"
-type: "Hotel"
-appdest: "hotel"
-
+title: "Inicio"
+type: null
+appdest: "index"
 ---
+Español
+welcome  
