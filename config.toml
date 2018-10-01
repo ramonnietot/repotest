@@ -17,17 +17,23 @@ copyright = "Everything is mine"
 
 [menu]
 
-  [[languages.en.menu.main]]
-    identifier = "inicio"
-    name = "Home"
-    title = "Home"
-    url = "/en/"
-    weight = 10
+#  [[languages.en.menu.main]]
+#    identifier = "inicio"
+#    name = "Home"
+#    title = "Home"
+#    url = "/en/"
+#    weight = 10
+#  [[languages.en.menu.main]]
+#    identifier = "hotel"
+#    name = "Hotel"
+#    title = "Hotel"
+#    url = "/en/hotel/"
+#    weight = 20
   [[languages.en.menu.main]]
     identifier = "hotel"
     name = "Hotel"
     title = "Hotel"
-    url = "/en/hotel/"
+    url = "/en/hotel"
     weight = 20
   [[languages.en.menu.main]]
     identifier = "excursion"
@@ -47,12 +53,12 @@ copyright = "Everything is mine"
     title = "Transfers"
     url = "/en/traslado/"
     weight = 50
-  [[languages.en.menu.main]]
-    identifier = "otros"
-    name = "Other Services"
-    title = "Other Services"
-    url = "/en/otros/"
-    weight = 60
+ # [[languages.en.menu.main]]
+ #   identifier = "otros"
+ #   name = "Other Services"
+ #   title = "Other Services"
+ #   url = "/en/otros/"
+ #   weight = 60
   [[languages.en.menu.main]]
     identifier = "reservas"
     name = "My Bookings"
@@ -60,17 +66,23 @@ copyright = "Everything is mine"
     url = "/en/reservas/"
     weight = 70
 
-  [[languages.es.menu.main]]
-    identifier = "inicio"
-    name = "Inicio"
-    title = "Inicio"
-    url = "/"
-    weight = 10
+#  [[languages.es.menu.main]]
+#    identifier = "inicio"
+#    name = "Inicio"
+#    title = "Inicio"
+#    url = "/"
+#    weight = 10
+#  [[languages.es.menu.main]]
+#    identifier = "hotel"
+#    name = "Hotel"
+#    title = "Hotel"
+#    url = "/hotel/"
+#    weight = 20
   [[languages.es.menu.main]]
     identifier = "hotel"
     name = "Hotel"
     title = "Hotel"
-    url = "/hotel/"
+    url = "/hotel"
     weight = 20
   [[languages.es.menu.main]]
     identifier = "excursion"
@@ -90,12 +102,12 @@ copyright = "Everything is mine"
     title = "Traslados"
     url = "/traslado/"
     weight = 50
-  [[languages.es.menu.main]]
-    identifier = "otros"
-    name = "Otros Servicios"
-    title = "Otros Servicios"
-    url = "/otros/"
-    weight = 60
+#  [[languages.es.menu.main]]
+#    identifier = "otros"
+#    name = "Otros Servicios"
+#    title = "Otros Servicios"
+#    url = "/otros/"
+#    weight = 60
   [[languages.es.menu.main]]
     identifier = "reservas"
     name = "Mis reservas"
