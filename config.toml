@@ -7,12 +7,12 @@ copyright = "Everything is mine"
 
 [languages]
   [languages.en]
-    title = "QuoTravelEN"
+    title = "Viajes Ibiza"
     weight = 2
 
   [languages.es]
     copyright = "implementado por Quonext"
-    title = "QuoTravel"
+    title = "Viajes Ibiza"
     weight = 1
 
 [menu]
