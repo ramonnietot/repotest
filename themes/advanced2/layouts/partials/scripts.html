@@ -1,0 +1,54 @@
+<!-- Materialize -->
+    <!-- CSS -->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- JS -->
+<script src="/js/materialize.min.js"></script>
+    <!-- initialize -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems,{accordion: false});
+    });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems);
+  });
+    document.addEventListener('DOMContentLoaded', function() {
+        var elem = document.querySelector('.sidenav');
+        var instance = new M.Sidenav(elem);
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {fullWidth: true,
+            indicators: true});
+
+        var instance = M.Carousel.getInstance(elems[0]);
+        setInterval(function() {
+            instance.next()
+        }, 5000)
+
+
+    });
+
+</script>
+
+<!-- APPs-->
+
+
+<!-- JS  -->
+{{ if ne .Params.appdest "index"  }}
+<script type="text/javascript" src="/js/{{.Params.appdest}}.manifest.js"></script>
+<script type="text/javascript" src="/js/{{.Params.appdest}}.vendor.js"></script>
+<script type="text/javascript" src="/js/{{.Params.appdest}}.app.js"></script>
+<!--<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/manifest.js"></script>
+<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/vendor.js"></script>
+<script type="text/javascript" src="/node_modules/quotravel-web-reservas-logic/static/js/app.js"></script>-->
+
+{{ end }}
+
+
+
+
+

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main style="background-image: url(/images/home/foto1.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <div ><!-- class container sacando los otros-->
+        <div class="container">
+            <div class="appcontainer white" style="{border-radius: 15px 50px}">
+                <div  id="{{.Params.appdest}}" ></div>
+            </div>
+<!--{{ .Content }}
+{{ partial "articlesdown.html" .}}-->
+        </div>
+    </div>
+</main>
+{{end}}
+
