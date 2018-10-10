@@ -1,9 +1,12 @@
 baseURL = "https://pedantic-williams-fc3e0c.netlify.com"
-theme = "advanced"
+theme = "advanced2"
 
 
 DefaultContentLanguage = "es"
 copyright = "Everything is mine"
+
+[params]
+    logo = "Nombre empresa"
 
 [languages]
   [languages.en]
