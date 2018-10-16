@@ -2,7 +2,7 @@
 
 title: "Traslado"
 type: "Traslado"
-appdest: "traslados"
+appdest: "traslado"
 
 ---
 
