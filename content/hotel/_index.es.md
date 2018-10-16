@@ -1,7 +1,5 @@
 ---
-
-title: "Hotel"
-type: "Hotel"
+title: "Hotel" 
+type: "Hotel" 
 appdest: "hotel"
-
 ---

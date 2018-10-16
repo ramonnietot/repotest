@@ -1,8 +1,9 @@
 ---
-
-title: "Otros Servicios"
-type: "Otros"
+title: "Otros" 
+type: "Otros" 
 appdest: "otros"
+---
+ros"
 
 ---
 

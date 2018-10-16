@@ -1,8 +1,6 @@
 ---
-
-title: "Traslado"
-type: "Traslado"
+title: "Traslado" 
+type: "Traslado" 
 appdest: "traslado"
-
 ---
 

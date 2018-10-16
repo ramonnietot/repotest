@@ -1,119 +1,87 @@
-baseURL = "https://pedantic-williams-fc3e0c.netlify.com"
-theme = "advanced2"
-
-
+baseURL = "https://quotraveldinamico.netlify.com/"
+theme = "basic"
 DefaultContentLanguage = "es"
-copyright = "Everything is mine"
-
+copyright = "null"
 [params]
-    logo = "Nombre empresa"
-
+    logo = "Viajes RNT"
 [languages]
-  [languages.en]
-    title = "Viajes Ibiza"
-    weight = 2
-
-  [languages.es]
-    copyright = "implementado por Quonext"
-    title = "Viajes Ibiza"
-    weight = 1
-
+[languages.en]
+title = "Viajes RNT"
+weight = 2
+[languages.es]
+copyright = "null"
+title = "Viajes RNT"
+weight = 1
 [menu]
-
-#  [[languages.en.menu.main]]
-#    identifier = "inicio"
-#    name = "Home"
-#    title = "Home"
-#    url = "/en/"
-#    weight = 10
-#  [[languages.en.menu.main]]
-#    identifier = "hotel"
-#    name = "Hotel"
-#    title = "Hotel"
-#    url = "/en/hotel/"
-#    weight = 20
-  [[languages.en.menu.main]]
-    identifier = "hotel"
-    name = "Hotel"
-    title = "Hotel"
-    url = "/en/hotel"
-    weight = 20
-  [[languages.en.menu.main]]
-    identifier = "excursion"
-    name = "Excursions"
-    title = "Excursions"
-    url = "/en/excursion/"
-    weight = 30
-  [[languages.en.menu.main]]
-    identifier = "circuito"
-    name = "Tours"
-    title = "Tours"
-    url = "/en/circuito/"
-    weight = 40
-  [[languages.en.menu.main]]
-    identifier = "traslado"
-    name = "Transfers"
-    title = "Transfers"
-    url = "/en/traslado/"
-    weight = 50
- # [[languages.en.menu.main]]
- #   identifier = "otros"
- #   name = "Other Services"
- #   title = "Other Services"
- #   url = "/en/otros/"
- #   weight = 60
-  [[languages.en.menu.main]]
-    identifier = "reservas"
-    name = "My Bookings"
-    title = "My Bookings"
-    url = "/en/reservas/"
-    weight = 70
-
-#  [[languages.es.menu.main]]
-#    identifier = "inicio"
-#    name = "Inicio"
-#    title = "Inicio"
-#    url = "/"
-#    weight = 10
-#  [[languages.es.menu.main]]
-#    identifier = "hotel"
-#    name = "Hotel"
-#    title = "Hotel"
-#    url = "/hotel/"
-#    weight = 20
-  [[languages.es.menu.main]]
-    identifier = "hotel"
-    name = "Hotel"
-    title = "Hotel"
-    url = "/hotel"
-    weight = 20
-  [[languages.es.menu.main]]
-    identifier = "excursion"
-    name = "Excursiones"
-    title = "Excursiones"
-    url = "/excursion/"
-    weight = 30
-  [[languages.es.menu.main]]
-    identifier = "circuito"
-    name = "Circuitos"
-    title = "Circuitos"
-    url = "/circuito/"
-    weight = 40
-  [[languages.es.menu.main]]
-    identifier = "traslado"
-    name = "Traslados"
-    title = "Traslados"
-    url = "/traslado/"
-    weight = 50
-#  [[languages.es.menu.main]]
-#    identifier = "otros"
-#    name = "Otros Servicios"
-#    title = "Otros Servicios"
-#    url = "/otros/"
-#    weight = 60
-  [[languages.es.menu.main]]
-    identifier = "reservas"
-    name = "Mis reservas"
-    title = "Mis reservas"
-    url = "/reservas/"
-    weight = 70
+[[languages.en.menu.main]]
+identifier = "hotel"
+name = "Hotel" 
+title = "Hotel" 
+url = "/en/hotel"
+weight = 20
+[[languages.es.menu.main]]
+identifier = "hotel"
+name = "Hotel" 
+title = "Hotel" 
+url = "/hotel"
+weight = 20
+[[languages.en.menu.main]]
+identifier = "traslado"
+name = "Transfer" 
+title = "Transfer" 
+url = "/en/traslado"
+weight = 50
+[[languages.es.menu.main]]
+identifier = "traslado"
+name = "Traslado" 
+title = "Traslado" 
+url = "/traslado"
+weight = 50
+[[languages.en.menu.main]]
+identifier = "excursion"
+name = "Excursion" 
+title = "Excursion" 
+url = "/en/excursion"
+weight = 30
+[[languages.es.menu.main]]
+identifier = "excursion"
+name = "Excursion" 
+title = "Excursion" 
+url = "/excursion"
+weight = 30
+[[languages.en.menu.main]]
+identifier = "circuit"
+name = "Circuits" 
+title = "Circuits" 
+url = "/en/circuito"
+weight = 40
+[[languages.es.menu.main]]
+identifier = "circuito"
+name = "Circuitos" 
+title = "Circuitos" 
+url = "/circuito"
+weight = 40
+[[languages.en.menu.main]]
+identifier = "otros"
+name = "Other services" 
+title = "Other services" 
+url = "/en/otros"
+weight = 60
+[[languages.es.menu.main]]
+identifier = "otros"
+name = "Otros servicios" 
+title = "Otros servicios" 
+url = "/otros"
+weight = 60
+[[languages.en.menu.main]]
+identifier = "reservas"
+name = "My bookings" 
+title = "My bookings" 
+url = "/en/reservas"
+weight = 70
+[[languages.es.menu.main]]
+identifier = "reservas"
+name = "Mis reservas" 
+title = "Mis reservas" 
+url = "/reservas"
+weight = 70

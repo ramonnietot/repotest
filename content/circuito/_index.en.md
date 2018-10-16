@@ -1,5 +1,5 @@
 ---
-title: "Circuitos"
-type: "Circuito"
+title: "Circuito" 
+type: "Circuito" 
 appdest: "circuito"
 ---
